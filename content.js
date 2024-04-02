@@ -9,7 +9,7 @@ function acceptTask() {
   document.querySelector('[name="CampaignId"]+button')?.click();
 }
 function JobsMenu() {
-  var n = document.getElementsByClassName("btn-danger btn")[0]?.innerText;
+  var n = document.getElementsByClassName("mw-btn danger")[0]?.innerText;
   if (n != " Skip this task") {
     const Job = document.createElement("li");
     Job.innerHTML = `
